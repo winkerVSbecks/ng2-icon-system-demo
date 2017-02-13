@@ -1,0 +1,32 @@
+{
+  "compileOnSave": false,
+  "buildOnSave": false,
+  "compilerOptions": {
+    "target": "es5",
+    "module": "es2015",
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "noImplicitAny": false,
+    "removeComments": false,
+    "sourceMap": true,
+    "noEmitHelpers": true,
+    "rootDir": ".",
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "types": [
+      "node",
+      "jasmine",
+      "core-js"
+    ]
+  },
+  "angularCompilerOptions": {
+    "entryModule": "app/app.module#AppModule"
+  },
+  "exclude": [
+    "node_modules",
+    "dist",
+    "src/tests.entry.ts",
+    "**/*.spec.ts"
+  ]
+}

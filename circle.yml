@@ -1,0 +1,17 @@
+machine:
+  node:
+    version: 6
+
+dependencies:
+  pre:
+    - npm install -g yarn@0.19.1
+  override:
+    - yarn install
+
+test:
+  override:
+    - yarn test
+
+general:
+  artifacts:
+    - "./coverage/"
