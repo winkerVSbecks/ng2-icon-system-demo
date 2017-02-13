@@ -17,8 +17,9 @@ import './icon-manifest';
  * The setup here is a little bit different from React and Vue.js.
  * I am using an attribute selector. This is because if
  * I use an element selector then the icon gets a host element. This
- * host wrapped messes with the dimensions. We end up with an icon
+ * host wrapper messes with the dimensions. We end up with an icon
  * that is a bit taller than expected.
+ *
  * By using the attribute selector we avoid the extra wrapper. And
  * the icon renders as expected.
  */
